@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "30 days of react",
+      "body": "Learn 30 days of react with me",
+      "author": "Amit"
+    },
+    {
+      "id": 2,
+      "title": "Web dev roadmap",
+      "body": "Get Roadmap",
+      "author": "Ajay"
+    },
+    {
+      "title": "30daysofjs",
+      "body": "master js",
+      "author": "Amit",
+      "id": 4
+    }
+  ]
+}

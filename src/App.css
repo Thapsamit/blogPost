@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.App{
+  
+  padding: 1rem 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width:70%;
+  margin:0 auto;
+  padding: 0 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.menu ul{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:center;
 }
-
-.App-link {
-  color: #61dafb;
+.logo{
+  color:darkorchid;
 }
+.menu ul li{
+  margin: 0 1rem;
+  
+}
+.btn{
+  color:white;
+  background-color: darkorchid;
+  padding: 0.7rem 1rem;
+  font-size:1rem;
+  border-radius:8px;
+  display:inline-block;
+}
+.btn:hover{
+  transform: scale(0.98);
+}
+ul{
+  list-style:none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+a{
+  text-decoration: none;
+  color:darkorchid;
+}
+.home{
+  margin-top:1rem;
+}
+.home .blog-preview{
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-bottom:1px solid darkorchid;
+
+}
+.home .blog-preview h3{
+  color:darkorchid;
+}
+.content{
+  margin-top:1.7rem;
+}
+.content .title{
+  color:darkorchid;
+}
+form{
+  width:100%;
+}
+form h3{
+  color: darkorchid;
+}
+form input,textarea
+{
+  width:100%;
+  border:none;
+  border:1px solid grey;
+  padding:10px 0;
+  border-radius: 2px;
+  font-family: "poppins";
+  outline:none;
+}
+form select{
+  font-family: "poppins";
+  font-size:15px;
+  width:200px;
+  padding:10px 0;
+  outline:none;
 }
